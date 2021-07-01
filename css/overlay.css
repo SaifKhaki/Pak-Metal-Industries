@@ -1,0 +1,50 @@
+.overlay{
+    z-index: 2000; 
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed; 
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.myButton{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+.myButton:active{
+    background-color: rgb(243, 243, 243);
+}
+.sideSection{
+    height: 90%;
+    position: absolute;
+    right: 0px;
+    background-color: white;
+}
+.overlayTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 46px;
+
+    color: #000000;
+}
+#price{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    color: #0D8BFF;
+}
+.perItem{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}

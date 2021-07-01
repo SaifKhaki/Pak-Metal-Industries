@@ -1,0 +1,101 @@
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+a{
+    color: #FFFFFF;
+}
+
+
+.mainHeading {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.mainHeading::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -25px;
+    background-color: #0D8BFF;
+    width: 10px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.centerSection{
+    /* position: absolute; */
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.mainHeading h1{
+    font-size: 57px;
+}
+
+.mainHeading h1 span {
+    color: #0D8BFF; 
+}
+
+.mainHeading p{
+    font-size: 22px;
+    width: 90%;
+}
+
+
+.carHead{
+    position: relative;
+    top: 20px;
+    z-index: 999;
+    left: -30px;
+}
+.carHead h1{
+    margin: 0;
+}
+.carHead p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.CarouselHeading{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* margin: 15px 20px; */
+}
+
+.itemCaro{
+    background: rgba(196, 196, 196, 0.53);
+    margin-top: 40px;
+}
+
+.itemCarousel1{
+    /* padding: 30px; */
+}
+
+.itemCaro{
+    position: relative;
+}
+
+.overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(63, 63, 63, 0) 76.21%, rgba(255, 255, 255, 0) 76.21%);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.homePageDiv{
+    height: 200px;
+}
